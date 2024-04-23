@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="counter.js"> </script>
+ 
+    <title>Document</title>
+    <style>
+       #Count{
+         text-align: center;
+         font-size: 10em;
+         font-family: Arial, Helvetica, sans-serif; 
+              }
+      .buttons{
+       text-align: center;
+      }
+      button{
+        padding: 10px 20px;
+         border-radius: 8px;
+       transition: background-color 0.7s;
+         
+      }
+      button:hover{
+        box-shadow: 2px 2px 2px black;
+        background-color: lightblue;
+        border-radius: 4px;
+         }  
+          </style>
+</head>
+<body>
+  <h1 id="Count">0</h1>
+  <div class="buttons">
+  <button onclick="increment()"  >increase</button>
+  <button onclick="reset()"  >reset</button>
+   <button onclick="decrement()" >decrease</button>   
+   </div> 
+  
+</body>
+
+
+</html>
